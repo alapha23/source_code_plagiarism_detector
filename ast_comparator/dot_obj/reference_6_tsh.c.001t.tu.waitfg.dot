@@ -1,0 +1,41 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope waitfg",shape=box];
+  node2 [label="goto label6425",shape=ellipse];
+  node1 -> node2;
+  node3 [label="label6426:",shape=ellipse];
+  node2 -> node3 [style=dotted];
+  node4 [label="call sleep",shape=ellipse];
+  node5 [label="1",shape=ellipse];
+  node4 -> node5;
+  node3 -> node4 [style=dotted];
+  node6 [label="label6425:",shape=ellipse];
+  node4 -> node6 [style=dotted];
+  node7 [label="if",shape=ellipse];
+  node6 -> node7 [style=dotted];
+  node8 [label="==",shape=ellipse];
+  node9 [label="component",shape=ellipse];
+  node8 -> node9;
+  node10 [label="*",shape=ellipse];
+  node11 [label="p",shape=ellipse];
+  node10 -> node11;
+  node9 -> node10;
+  node12 [label=".",shape=ellipse];
+  node9 -> node12;
+  node13 [label="state",shape=ellipse];
+  node12 -> node13;
+  node14 [label="1",shape=ellipse];
+  node8 -> node14;
+  node7 -> node8 [style=dotted];
+  node15 [label="goto label6426",shape=ellipse];
+  node7 -> node15;
+  node16 [label="goto label6432",shape=ellipse];
+  node7 -> node16;
+  node17 [label="label6432:",shape=ellipse];
+  node7 -> node17 [style=dotted];
+  node18 [label="return",shape=ellipse];
+  node17 -> node18 [style=dotted];
+} 

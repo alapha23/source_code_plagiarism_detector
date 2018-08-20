@@ -1,0 +1,47 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope waitfg",shape=box];
+  node2 [label="if",shape=ellipse];
+  node1 -> node2 [style=dotted];
+  node3 [label="<",shape=ellipse];
+  node4 [label="call sigemptyset",shape=ellipse];
+  node5 [label="&",shape=ellipse];
+  node4 -> node5;
+  node6 [label="mask",shape=ellipse];
+  node5 -> node6;
+  node3 -> node4 [style=dotted];
+  node7 [label="0",shape=ellipse];
+  node3 -> node7;
+  node2 -> node3 [style=dotted];
+  node8 [label="call perror",shape=ellipse];
+  node9 [label="\"sigemptyset\"",shape=ellipse];
+  node8 -> node9;
+  node2 -> node8 [style=dotted];
+  node10 [label="label7802:",shape=ellipse];
+  node2 -> node10 [style=dotted];
+  node11 [label="if",shape=ellipse];
+  node10 -> node11 [style=dotted];
+  node12 [label="!=",shape=ellipse];
+  node13 [label="call fgpid",shape=ellipse];
+  node14 [label="jobs",shape=ellipse];
+  node13 -> node14;
+  node12 -> node13 [style=dotted];
+  node15 [label="pid",shape=ellipse];
+  node12 -> node15;
+  node11 -> node12 [style=dotted];
+  node16 [label="return",shape=ellipse];
+  node11 -> node16 [style=dotted];
+  node17 [label="call sigsuspend",shape=ellipse];
+  node18 [label="&",shape=ellipse];
+  node17 -> node18;
+  node19 [label="mask",shape=ellipse];
+  node18 -> node19;
+  node11 -> node17 [style=dotted];
+  node20 [label="goto label7802",shape=ellipse];
+  node17 -> node20;
+  node21 [label="return",shape=ellipse];
+  node20 -> node21 [style=dotted];
+} 

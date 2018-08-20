@@ -1,0 +1,72 @@
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Unknown node type: error_mark
+Scope do_bgfg not found.
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Scope do_bgfg not found.
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Scope builtin_cmd not found.
+Scope builtin_cmd not found.
+Scope builtin_cmd not found.
+Warning: Scope too short, node type 0x126 unexpected, expected statement_list
+Warning: Scope too short, node type 0x126 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Warning: Scope too short, node type 0x115 unexpected, expected statement_list
+Scope waitfg not found.
+Unknown node type: error_mark
+Scope waitfg not found.
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Warning: Scope too short, node type 0x121 unexpected, expected statement_list
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Scope waitfg not found.
+Warning: Scope too short, node type 0x121 unexpected, expected statement_list
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Warning: Scope too short, node type 0x121 unexpected, expected statement_list
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Warning: Scope too short, node type 0x121 unexpected, expected statement_list
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Unknown node type: error_mark
+Warning: Scope too short, node type 0x120 unexpected, expected statement_list
+Warning: Scope too short, node type 0x121 unexpected, expected statement_list

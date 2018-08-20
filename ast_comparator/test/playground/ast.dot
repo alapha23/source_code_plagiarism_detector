@@ -1,0 +1,45 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope main",shape=box];
+  node2 [label="call open_file",shape=ellipse];
+  node3 [label="argv",shape=ellipse];
+  node2->node3;
+  node1 -> node2 [style=dotted]
+  node4 [label="modify",shape=ellipse];
+  node5 [label="filesize",shape=ellipse];
+  node4->node5;
+  node6 [label="call get_filesize",shape=ellipse];
+  node4 -> node6 [style=dotted]
+  node2 -> node4 [style=dotted]
+  node7 [label="modify",shape=ellipse];
+  node8 [label="pool",shape=ellipse];
+  node7->node8;
+  node9 [label="call calloc",shape=ellipse];
+  node10 [label="8",shape=ellipse];
+  node9->node10;
+  node11 [label="div",shape=ellipse];
+  node12 [label="filesize",shape=ellipse];
+  node11->node12;
+  node13 [label="70",shape=ellipse];
+  node11->node13;
+  node9 -> node11 [style=dotted]
+  node7 -> node9 [style=dotted]
+  node4 -> node7 [style=dotted]
+  node14 [label="call eval_file",shape=ellipse];
+  node15 [label="*",shape=ellipse];
+  node16 [label="poiner_plus",shape=ellipse];
+  node17 [label="argv",shape=ellipse];
+  node16->node17;
+  node18 [label="16",shape=ellipse];
+  node16->node18;
+  node15 -> node16 [style=dotted]
+  node14->node15;
+  node7 -> node14 [style=dotted]
+  node19 [label="call free",shape=ellipse];
+  node20 [label="pool",shape=ellipse];
+  node19->node20;
+  node14 -> node19 [style=dotted]
+} 

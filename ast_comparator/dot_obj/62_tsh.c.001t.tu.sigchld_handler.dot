@@ -1,0 +1,47 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope sigchld_handler",shape=box];
+  node2 [label="goto label7824",shape=ellipse];
+  node1 -> node2;
+  node3 [label="label7825:",shape=ellipse];
+  node2 -> node3 [style=dotted];
+  node4 [label="call deletejob",shape=ellipse];
+  node5 [label="pid",shape=ellipse];
+  node4 -> node5;
+  node6 [label="jobs",shape=ellipse];
+  node4 -> node6;
+  node3 -> node4 [style=dotted];
+  node7 [label="return",shape=ellipse];
+  node4 -> node7 [style=dotted];
+  node8 [label="label7824:",shape=ellipse];
+  node7 -> node8 [style=dotted];
+  node9 [label="if",shape=ellipse];
+  node8 -> node9 [style=dotted];
+  node10 [label=">",shape=ellipse];
+  node11 [label="modify",shape=ellipse];
+  node12 [label="pid",shape=ellipse];
+  node11 -> node12;
+  node13 [label="call waitpid",shape=ellipse];
+  node14 [label="1",shape=ellipse];
+  node13 -> node14;
+  node15 [label="0",shape=ellipse];
+  node13 -> node15;
+  node16 [label="-1",shape=ellipse];
+  node13 -> node16;
+  node11 -> node13 [style=dotted];
+  node10 -> node11 [style=dotted];
+  node17 [label="0",shape=ellipse];
+  node10 -> node17;
+  node9 -> node10 [style=dotted];
+  node18 [label="goto label7825",shape=ellipse];
+  node9 -> node18;
+  node19 [label="goto label7831",shape=ellipse];
+  node9 -> node19;
+  node20 [label="label7831:",shape=ellipse];
+  node9 -> node20 [style=dotted];
+  node21 [label="return",shape=ellipse];
+  node20 -> node21 [style=dotted];
+} 

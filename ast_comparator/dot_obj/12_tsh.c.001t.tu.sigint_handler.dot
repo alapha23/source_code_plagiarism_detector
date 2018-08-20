@@ -1,0 +1,29 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope sigint_handler",shape=box];
+  node2 [label="if",shape=ellipse];
+  node1 -> node2 [style=dotted];
+  node3 [label="!=",shape=ellipse];
+  node4 [label="call getjobpid",shape=ellipse];
+  node5 [label="pid",shape=ellipse];
+  node4 -> node5;
+  node6 [label="jobs",shape=ellipse];
+  node4 -> node6;
+  node3 -> node4 [style=dotted];
+  node7 [label="0",shape=ellipse];
+  node3 -> node7;
+  node2 -> node3 [style=dotted];
+  node8 [label="call kill",shape=ellipse];
+  node9 [label="sig",shape=ellipse];
+  node8 -> node9;
+  node10 [label="-",shape=ellipse];
+  node11 [label="pid",shape=ellipse];
+  node10 -> node11;
+  node8 -> node10;
+  node2 -> node8 [style=dotted];
+  node12 [label="return",shape=ellipse];
+  node2 -> node12 [style=dotted];
+} 

@@ -1,0 +1,17 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope builtin_cmd",shape=box];
+  node2 [label="unsigned int",shape=ellipse];
+  node3 [label="argv",shape=ellipse];
+  node2 -> node3;
+  node1 -> node2;
+  node4 [label="return",shape=ellipse];
+  node5 [label="modify",shape=ellipse];
+  node6 [label="0",shape=ellipse];
+  node5 -> node6;
+  node4 -> node5 [style=dotted];
+  node2 -> node4 [style=dotted];
+} 

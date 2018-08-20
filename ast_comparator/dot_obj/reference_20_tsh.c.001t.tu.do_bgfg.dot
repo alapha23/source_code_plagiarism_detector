@@ -1,0 +1,29 @@
+digraph AST {
+  graph [fontname="Times New Roman",fontsize=10];
+  node  [fontname="Courier New",fontsize=10];
+  edge  [fontname="Times New Roman",fontsize=10];
+
+  node1 [label="scope do_bgfg",shape=box];
+  node2 [label="if",shape=ellipse];
+  node1 -> node2 [style=dotted];
+  node3 [label="==",shape=ellipse];
+  node4 [label="*",shape=ellipse];
+  node5 [label="argv",shape=ellipse];
+  node4 -> node5;
+  node3 -> node4;
+  node6 [label="\"bg     \"",shape=ellipse];
+  node3 -> node6;
+  node2 -> node3 [style=dotted];
+  node7 [label="else if",shape=ellipse];
+  node2 -> node7 [style=dotted];
+  node8 [label="==",shape=ellipse];
+  node9 [label="*",shape=ellipse];
+  node10 [label="argv",shape=ellipse];
+  node9 -> node10;
+  node8 -> node9;
+  node11 [label="\"fg     \"",shape=ellipse];
+  node8 -> node11;
+  node7 -> node8 [style=dotted];
+  node12 [label="return",shape=ellipse];
+  node2 -> node12 [style=dotted];
+} 
